@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var items = $.get('http://portal.batchacademy.com/api/wdfne/test-data/items', function(items){
+  $.get('http://portal.batchacademy.com/api/wdfne/test-data/items', function(items){
   	
   	console.log(items);
 
